@@ -1,0 +1,66 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# reports
+reports
+
+# testing
+coverage
+
+# build
+**/build
+webpack-stats.json
+!build*.js
+
+# PID
+pid*
+
+# generated typescript typings
+typings
+
+# misc
+.babelCache
+dist
+.DS_Store
+.DS_STORE
+.env*
+env.bak
+!.env.example
+!.env.test
+
+# package manager logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# GIT
+*.orig
+
+# editor
+.idea
+.graphqlconfig
+
+# local certificates
+.ssl
+
+scripts/perf/logs
+scripts/perf/errors
+
+logs/
+*.report.html
+*.log
+*.log.*.gz
+
+!scripts/logs/
+!.gitkeep
+
+
+# development https cert
+*.pem
+
+.secret
+.clinic
+.last-build.json
+
