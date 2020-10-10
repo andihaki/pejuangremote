@@ -64,3 +64,4 @@ logs/
 .clinic
 .last-build.json
 
+.next
